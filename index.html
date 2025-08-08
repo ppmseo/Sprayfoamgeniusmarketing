@@ -70,29 +70,105 @@
       }
     </style>
   </head>
-  <nav>
-    <a href="seo-services.html">/seo services</a>
-</nav>
-  <nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-background e--animation-shutter-in-vertical">
-				<ul id="menu-1-e1118fe" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1280 current_page_item menu-item-1288"><a href="https://sprayfoamgeniusmarketing.com/" aria-current="page" class="elementor-item elementor-item-active">Home</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a href="https://sprayfoamgeniusmarketing.com/about-us/" class="elementor-item">About Us</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-27"><a href="https://sprayfoamgeniusmarketing.com/services/" class="elementor-item">Services</a>
-<ul class="sub-menu elementor-nav-menu--dropdown">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3745"><a href="https://sprayfoamgeniusmarketing.com/website-development-services/" class="elementor-sub-item">Web Design for Spray Foam Contractors</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3743"><a href="https://sprayfoamgeniusmarketing.com/professional-seo-services/" class="elementor-sub-item">SEO Services for Spray Foam Contractors</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3740"><a href="https://sprayfoamgeniusmarketing.com/google-business-profile/" class="elementor-sub-item">Google Business Profile for Spray Foam Contractors</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3741"><a href="https://sprayfoamgeniusmarketing.com/lead-generation-services/" class="elementor-sub-item">Lead Generation for Spray Foam Contractors</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3742"><a href="https://sprayfoamgeniusmarketing.com/reputation-management-services/" class="elementor-sub-item">Reputation Management for Spray Foam Contractors</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3744"><a href="https://sprayfoamgeniusmarketing.com/social-media-marketing-services/" class="elementor-sub-item">Social Media Marketing for Spray Foam Contractors</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12275"><a href="https://sprayfoamgeniusmarketing.com/google-ads-for-spray-foam-contractors/" class="elementor-sub-item">Google Ads for Spray Foam Contractors</a></li>
-</ul>
-</li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2160"><a href="https://sprayfoamgeniusmarketing.com/our-packages/" class="elementor-item">Our Packages</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1328"><a href="https://sprayfoamgeniusmarketing.com/genius-junction/" class="elementor-item">Genius Junction</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5221"><a href="/go/" class="elementor-item">Our Testimonials</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="https://sprayfoamgeniusmarketing.com/contact-us/" class="elementor-item">Contact Us</a></li>
-</ul>			</nav>
+	 <style>
+    /* Reset some default browser styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Header styling */
+    header {
+      background-color: #007BFF; /* Blue */
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap; /* makes it responsive */
+    }
+
+    /* Logo styling */
+    .logo {
+      display: flex;
+      align-items: center;
+      font-size: 1.5em;
+      font-weight: bold;
+      text-decoration: none;
+      color: white;
+    }
+
+    .logo img {
+      height: 40px;
+      width: 40px;
+      margin-right: 10px;
+    }
+
+    /* Navbar styling */
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li {
+      display: inline;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      padding: 8px 15px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+      font-size: 1em;
+    }
+
+    nav ul li a:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    /* Responsive menu (stack items on small screens) */
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav ul {
+        flex-direction: column;
+        width: 100%;
+      }
+
+      nav ul li {
+        width: 100%;
+      }
+
+      nav ul li a {
+        display: block;
+        width: 100%;
+      }
+    }
+  </style>
   <body>
+	  <header>
+    <!-- Dummy logo -->
+    <a href="index.html" class="logo">
+      <img src="https://via.placeholder.com/40" alt="Logo">
+      My Website
+    </a>
+
+    <!-- Navigation -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="services.html">Services</a></li>
+      </ul>
+    </nav>
+  </header>
     <div class="container">
       <section id="home">
         <h1>Spray Foam Genius Marketing</h1>
