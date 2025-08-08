@@ -70,33 +70,29 @@
       }
     </style>
   </head>
-	 <style>
-    /* Reset some default browser styles */
+	<style>
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
 
-    /* Header styling */
     header {
-      background-color: #007BFF; /* Blue */
-      color: white;
+      background-color: #007BFF; /* Blue header */
       padding: 15px 30px;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      flex-wrap: wrap; /* makes it responsive */
+      flex-wrap: wrap;
     }
 
-    /* Logo styling */
     .logo {
       display: flex;
       align-items: center;
       font-size: 1.5em;
       font-weight: bold;
       text-decoration: none;
-      color: white;
+      color: white; /* Logo text stays white */
     }
 
     .logo img {
@@ -105,7 +101,6 @@
       margin-right: 10px;
     }
 
-    /* Navbar styling */
     nav ul {
       list-style: none;
       display: flex;
@@ -117,19 +112,20 @@
     }
 
     nav ul li a {
-      color: white;
+      color: black; /* Button text black */
+      background-color: white; /* White background for buttons */
       text-decoration: none;
       padding: 8px 15px;
       border-radius: 5px;
-      transition: background-color 0.3s ease;
+      transition: background-color 0.3s ease, color 0.3s ease;
       font-size: 1em;
     }
 
     nav ul li a:hover {
-      background-color: rgba(255, 255, 255, 0.2);
+      background-color: #0056b3; /* Darker blue on hover */
+      color: white; /* Text turns white on hover */
     }
 
-    /* Responsive menu (stack items on small screens) */
     @media (max-width: 600px) {
       header {
         flex-direction: column;
@@ -155,7 +151,7 @@
 	  <header>
     <!-- Dummy logo -->
     <a href="index.html" class="logo">
-      <img src="https://via.placeholder.com/40" alt="Logo">
+      <img src="https://sprayfoamgeniusmarketing.com/wp-content/uploads/2023/03/Spray-Foam-Genius-logo-1.webp" alt="Logo">
       My Website
     </a>
 
